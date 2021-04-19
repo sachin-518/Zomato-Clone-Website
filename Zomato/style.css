@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+.container-fluid{
+	height: 450px;
+	background-image: url(images/top.jpg);
+	background-size: cover;
+	animation: slider 30s infinite linear;
+	max-height: 100%;
+	max-width:  100%
+}
+@keyframes slider{
+	0%{ background-image: url(images/top.jpg); }
+	35%{ background-image: url(images/top1.jpg); }
+	70%{ background-image: url(images/top3.jpg); }
+
+
+}
+.zomato-text{
+	color: white;
+  	text-shadow: 2px 5px 4px #000000;
+}
+
+
+.btn-1{
+	display: block;
+	display: inline-block
+	height: 30px;
+	border: none;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 4px;
+	background-color: red;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #f9e506;
+	transition: ease-out 0.75s;
+	outline: none;
+}
+.btn-1:hover {
+	box-shadow: inset 100px 0 30px 0 #f9e506;
+}
+.card{
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 300px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+  	transition: 0.3s;
+  	border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,2,10);
+}
+.card-img-top{
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	margin-bottom: 0px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+  	transition: 0.5s;
+  	border-radius: 20px;
+
+
+}
+
+#res-img{
+	width: 340px;
+	height: 340px;
+	padding: 5px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+  	transition: 0.5s;
+  	border-radius: 50px;
+  	float: right;
+}
+a:link{
+	text-decoration: none;
+
+}
+
+.card-body{
+	padding: 0px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+
+}
+.card-text{
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	color: #cc0000;
+}
+.card-text2{
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	color: black;
+	font-family: 'times new roman';
+	font-size: 16px;
+	
+}
+.card-title{
+	margin-top: 5px;
+	margin-bottom: 0px; 
+	color: black;
+	text-align: center;
+}
+.row{
+	justify-content: center;
+}
+
+.navbar-brand{
+	margin-left: 10px;
+	padding-left: 20px;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 25px;
+}
+.navbar{
+	padding-left: 15px;
+}
+
+#pic{
+	height: 400px;
+
+}
+#login{
+	margin-top: 10px;
+	display: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+}
+#tag{
+	height: 350px;
+	vertical-align: middle;
+	padding-bottom: 50px;
+}
+h1{
+	font-family: 'Comic Neue', cursive;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.dropbtn{
+	color: black;
+	font-weight: bolder;
+	background-color: #FFFF00;
+	
+}
+.row3{
+	height: 400px;
+	display: flex;
+}
+.res_name{
+	margin-left: 20px;
+	align-items: center;
+
+}
+#name{
+	margin: auto;
+}
+#rating{
+	color: white;
+	background-color: green;
+
+}
+#restaurant{
+	font-family: 'Cedarville Cursive', cursive;
+	font-weight: bolder;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px gray;
+
+}
+#address{
+	font-weight: bold;
+}
+.food-img{
+	float: right;
+	width: 250px;
+	height: 150px;
+	padding: 0px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 2px rgba(0, 0, 255, .2);;
+  	transition: 0.5s;
+ 
+
+}
+#food-name{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	color: black;
+	text-shadow: 0px 0px 0px #000000;
+}
+
+#menu{
+	text-align: right;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 2px gray;
+	margin: 20px;
+	padding-top: 30px;
+	color:black;
+
+	}
+#cusine-name{
+	font-size: 60px;
+}
+#cusines{
+	height:240px;
+	box-shadow: 0 0 0 0 rgba(0,0,0,0);
+	border-radius: 0px;
+
+	background: none;
+	border: none;
+}
+#cusines-title{
+	margin-top: 10px;
+	color:white;
+}
+#cus{
+  /* fallback for old browsers */
+   background: #000000;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(186, 181, 181, 0.85));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(186, 181, 181, 0.85))
+}
+#cus_head{
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding-top: 10px;
+}
+#cusines-img{
+	box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#cusines-img:hover{
+	box-shadow: 
+		inset 0 -6em 6em rgba(0,0,0,0.1),
+             0 0  0 4px rgb(255,255,255),
+             0.6em 0.6em 2em rgba(0,0,0,0.3);
+       
+}
+.row5{
+	font-size: 20px;
+	font-family: 'Dela Gothic One', cursive;
+	color: #270707;
+}
+#cus_container{
+	max-width: 1000px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+#my_cart{
+	text-align: right;
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	margin-right: 50px;
+}
+#quant{
+	    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+.sub{
+	background-color: red;
+	padding: 2px;
+	border-radius: 5px;
+
+
+}
+.add{
+	background-color: green;
+	padding: 2px;
+	border-radius: 5px;
+
+}
+h5{
+	font-weight: bold;
+}
+#total{
+	text-align: right;
+	margin-top: 20px;
+	color: red;
+	font-family: 'Orelega One', cursive;
+	font-size: 40px;
+	margin-right: 50px;
+}
+.card2{
+	display: flex;
+	width: 700px;
+	min-height: 400px;
+	box-shadow: 0 8px 5px 8px black;
+  	transition: 0.3s;
+  	border-radius: 5px;
+  	margin-right: 0px;
+  	border: 3px solid black;
+}
+#cart_left{
+	display: flex;
+}
+tr, td, th {
+  border: 1px solid black;
+}
+.card3{
+	margin-top: 10px;
+	display: flex;
+	width: 700px;
+	min-height: 635px;
+  	margin-bottom: 0px;
+  	background-image: url(https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2019/06/Science-of-Eating.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	border-radius: 25px;
+}
+.thank{
+	color: yellow;
+    text-shadow: 4px 5px 4px #000000;
+    margin: auto;
+    text-align: center;
+    font-family: 'Orelega One';
+    font-size: 70px;
+
+
+}
+#profile{
+	color: black;
+	font-size: 20px;
+	text-align: left;
+}
+/*CHECKOUT PAGE*/
+
+/* COUPONS*/
+
+.checkout-page{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+}
+.checkout-page-left,.checkout-page-right{
+	flex-basis: 50%;
+}
+.checkout-page-left{
+	background-color: #F5F5F5;
+	box-shadow: 5px 0px 24px 0px grey;
+}
+.apply-coupon, .select-coupon{
+	width: 75%;
+	height: 70%;
+	margin:auto;
+	text-align: center;
+	margin-top: 80px;
+}
+#discount-form{
+	margin-top: 40px;
+}
+#coupon{
+	margin-left: 20px;
+    width: 117px;
+    outline: none;
+    padding: 5px;
+    background-color: #FFCCFF;
+    border: none;
+    border-radius: 4px;
+}
+#discount-btn{
+	padding: 3px 6px;
+    width: 90px;
+    outline: none;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border: 1px dashed black;
+    background-color: 	#F8F8F8;
+    cursor: pointer;
+}
+#applied_disc{
+	margin-top: 25px;
+    font-family: 'Cookie', cursive;
+    font-size: 3.4rem;
+    color: brown;
+}
+.select-coupon{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.coupon-details{
+	display: flex;
+}
+.coupon-details .details{
+	flex-basis: 70%;
+}
+.coupon-details h4{
+	flex-basis: 30%;
+	font-family: 'Cabin', sans-serif;
+}
+.coupon-details h3{
+	font-family: "Lobster", cursive;
+}
+.coupon-details h2{
+	font-family: "Cookie", cursive;
+}
+#min-cart-val{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#new_address{
+	margin-top: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.address-page{
+	display: flex;
+}
+.address-inputs{
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.address-inputs label{
+	margin: 10px 0px;
+}
+.address-inputs input{
+	padding: 12px;
+	border-radius: 15px;
+	outline: none;
+}
+.address-selection{
+	position: relative;
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+}
+.individual-addresses input{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.indiv-add{
+	font-family: 'Caveat', cursive;
+	font-size: 1.3rem;
+}
+#select-proceed{
+	position: absolute;
+	bottom: 0px;
+    right: -20px;
+	border-radius: 15px;
+}
+/*PAYMENT PAGE*/
+
+.payment-page{
+	width: 50%;
+	margin: auto;
+	height: 70%;
+	margin-top: 35px;
+	border: 1px solid rgba(255, 230, 230,0.4);
+	padding: 20px 60px;
+	border-radius: 45px;
+    background-color: rgba(255, 230, 230,0.4);
+}
+.modes input{
+	margin-right: 20px;
+	cursor: pointer;
+	/*font-family: 'Teko', sans-serif;*/
+}
+.modes hr{
+	outline: none;
+    padding: 3px;
+}
+.icon{
+	font-size: 20px;
+    margin-left: 12px;
+}
+.bold{
+	font-weight: bold;
+}
+
+/*ORDER CONFIRMATION PAGE*/
+
+.order-confirmation-page{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.order-confirmed{
+	width: 70%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(255, 230, 230);
+	border-radius: 120px;
+}
+.order-pace-icon{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+/*MY ORDERS*/
+
+.individual-orders{
+	width: 70%;
+	margin: auto;
+}
+.order-row{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	padding: 20px;
+    box-shadow: 0px 0px 15px 0px grey;
+}
+.order-items{
+	display: flex;
+	justify-content: space-around;
+}
+#food-item{
+	font-family: 'Architects Daughter', cursive;
+}
+.order-details{
+	text-align: right;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+
+
+
+/*FOOTER SECTION*/
+
+.footer-section{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 3px;
+	background-color: #F5F5F5;
+	display: flex;
+}
+.footer-section-left , .footer-section-right{
+	flex-basis: 50%;
+	text-align: center;
+}
+.footer-section-left{
+	display: flex;
+	flex-direction: column;
+	margin-left: 285px;
+    margin-top: 33px;
+}
+.address,.contact-us,.mail-us{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.address i,.contact-us i,.mail-us i, .app i{
+	font-size: 35px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.footer-section-right{
+	display: flex;
+	flex-direction: column;
+	margin-top: 33px;
+	margin-right: 75px;
+}
+.social-links{
+	width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.social-links i{
+	font-size: 33px;
+	cursor: pointer;
+}
+.app{
+	width: 34%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 40px;
+}
